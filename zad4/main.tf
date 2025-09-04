@@ -10,7 +10,7 @@ provider "local" {}
 
 variable "files_count" {
   type    = number
-  default = 3
+ # default = 3
 }
 
 resource "local_file" "files" {
